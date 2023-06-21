@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ElectroTech</title>
+  <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+</head>
+<body>
+  <header>
+    <h1>ElectroTech</h1>
+  </header>
+
+  <main>
+    <section class="products">
+      <h2>Productos disponibles</h2>
+
+      <div class="product">
+        <img src="product1.jpg" alt="Producto 1">
+        <h3>Producto 1</h3>
+        <p>Descripción del producto 1.</p>
+        <p class="price">$300</p>
+        <button onclick="addToCart('Producto 1', 300)">Agregar al carrito</button>
+      </div>
+
+      <div class="product">
+        <img src="product2.jpg" alt="Producto 2">
+        <h3>Producto 2</h3>
+        <p>Descripción del producto 2.</p>
+        <p class="price">$200</p>
+        <button onclick="addToCart('Producto 2', 200)">Agregar al carrito</button>
+      </div>
+
+      <div class="product">
+        <img src="product2.jpg" alt="Producto 2">
+        <h3>Producto 3</h3>
+        <p>Descripción del producto 3.</p>
+        <p class="price">$100</p>
+        <button onclick="addToCart('Producto 3', 100)">Agregar al carrito</button>
+      </div>
+
+      <div class="product">
+        <img src="product4.jpg" alt="Producto 4">
+        <h3>Producto 4</h3>
+        <p>Descripción del producto 2.</p>
+        <p class="price">$150</p>
+        <button onclick="addToCart('Producto 4', 150)">Agregar al carrito</button>
+      </div>
+    </section>
+
+    <section class="cart">
+      <h2>Carrito de compras</h2>
+
+      <ul id="cart-items"></ul>
+
+      <div class="cart-total">
+        <p>Total: <span id="total">$0</span></p>
+      </div>
+
+      <button onclick="checkout()">Pagar</button>
+    </section>
+  </main>
+
+  <script src="/Javascritp/script.js"></script>
+</body>
+
+<footer>
+  <p class="card-body">Derechos reservados</p>
+  <br>
+  <p class="card-body">CALDAS 1535, Villa Ortuzar, CABA</p>
+  <br>
+  
+    <div class="iconos-sociales">
+    <a href="https://www.youtube.com" target="_blank"><img loading="lazy" alt=" YouTube" height="35" width="35" src=" https://1.bp.blogspot.com/-0Ao8V_ZtT5Q/YPhkfO0JqkI/AAAAAAAAA1U/Sz5GlaSW78AsY3nZpcqeIoPA_HQUSCVLgCPcBGAYYCw/s0/Youtube-icono.png" title=" Sígueme en YouTube "/></a>
+    
+    <a href="https://www.facebook.com" target="_blank"><img loading="lazy" alt=" Facebook" height="35" width="35" src=" https://1.bp.blogspot.com/-Pop-U7OywXs/YPhkfrImyiI/AAAAAAAAA1Y/UBnVfTK9j2U-bIUqwZYMNSQPvz_l06mbwCPcBGAYYCw/s0/facebook-icono.png" title="Sígueme en Facebook"/></a>
+    
+    <a href="https://www.instagram.com" target="_blank"><img loading="lazy" alt=" Instagram" height="35" width="35" src="https://1.bp.blogspot.com/-VFfOISywV0c/YPhkeRXuRQI/AAAAAAAAA1M/L75S9Usg5AovunH2Y-VzqJbaaY1LuK3eACPcBGAYYCw/s0/Instagram-icono.png" title="Sígueme en Instagram"/></a>
+    
+    <a href="https://www.whatsapp.com" target="_blank"><img loading="lazy" alt="WhatsApp" height="35" width="35" src=" https://1.bp.blogspot.com/-Vc_W7xraNnc/YPhkfwQExQI/AAAAAAAAA1c/dI72v37UC0EGJd7jWvKWYD3WMwZ7eER7gCPcBGAYYCw/s0/whatsapp-icono.png" title="Sígueme en WhatsApp"/></a>
+    
+    <a href="https://www.tiktok.com" target="_blank"><img loading="lazy" alt="TikTok" height="35" width="35" src=" https://1.bp.blogspot.com/-rK19lcfnq9c/YPhkfuEwAnI/AAAAAAAAA1U/0ydy_rVmboQtu211UQs7_zMXdMih2LCCwCPcBGAYYCw/s0/tiktok-icono-oscuro.png" title="Sígueme en TikTok"/></a>
+    
+    <a href="https://www.twitter.com" target="_blank"><img loading="lazy" alt=" Twitter" height="35" width="35" src=" https://1.bp.blogspot.com/-2JwTJZxg1AU/YPhkfB0DdjI/AAAAAAAAA1c/tDKdU6tS0A0lt4YegGUVd7k-9hguYz82ACPcBGAYYCw/s0/Twitter-icono.png" title="Sígueme en Twitter"/></a>
+    </div>
+</footer>
+</html>
